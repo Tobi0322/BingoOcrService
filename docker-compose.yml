@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ocr:
+    image: ocrapi
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
